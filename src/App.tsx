@@ -1,7 +1,8 @@
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
+
 export const App = () => {
   return (
-    <h1 className="font-bold">
-      Hello world!
-    </h1>
+    <RouterProvider router={router} />
   );
 };
